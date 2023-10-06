@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+  }
+img {
+    background-size: 30%;
+  }
+  body {
+    background-color: #ffb6c1;
+  }
+  h1,p:hover {
+    color: white;
+  }
+  
