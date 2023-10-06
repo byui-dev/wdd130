@@ -33,13 +33,13 @@
     background-color: #4FB477;
  }    
  #background {
-    background-color: #4FB477;
+    background-color:#52FFEE;
  }         
  .msg {
     background-color: #52FFEE;
  }    
  footer {    
-    background-color: #DCFFFD;
+    background-color: #52FFEE;
  }  
  nav a {
     background-color: white;
@@ -64,13 +64,13 @@
     background-color: #4FB477;
  }
  .msg p {
-    background-color: #4FB477;
+    background-color: white;
  }
  footer {
     background-color: #52FFEE;
  }
  footer a {
-    background-color: #4FB477;
+    background-color:white;
  }
  footer a:hover {
     background-color: #52FFEE;
