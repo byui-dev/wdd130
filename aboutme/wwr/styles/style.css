@@ -5,8 +5,10 @@
 }
  #logo_link {
   padding-top: 5px; 
-  width: 80px;   
- }    
+ } 
+ .logo {
+   width: 80px;
+  }   
  nav a {
  text-align: center;
  }
