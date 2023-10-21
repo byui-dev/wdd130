@@ -115,6 +115,7 @@ body {
   background-color: red; 
   grid-column: 1 / 2;
   grid-row: 1 / 4;
+  margin: 0 auto;
   
   
 /* The second grid item spans the second column and the first row*/  
@@ -189,29 +190,40 @@ body {
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
-  display:grid;
-  grid-template-columns: ;
-  grid-column: ;
-  grid-row: ;
-  z-index: ;
+  
+  
 }
 .red6 {
+  display: grid;
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 2fr 2fr;
+
 } 
 .green6 {
+  display: grid;
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 } 
 .yellow6 {
+  display: grid;
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 } 
 .blue6 {
+  display: grid;
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-items: center;
 } 
