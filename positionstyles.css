@@ -150,7 +150,8 @@ body {
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  
+  row-gap: 0px;
+  column-gap: 0px;
   
 }
 .red5 { 
@@ -171,9 +172,13 @@ body {
 }  
   
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  width: 100%;
+  height: 100%;
+  } 
+
+ p {
+  background-color: gold;
+  margin: 0 auto;
  } 
 
 .blue5 {
