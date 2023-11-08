@@ -167,6 +167,8 @@
  footer .social img {
    padding-top: 15px;
  }
+
+
  .rivers-card { 
   grid-column: 2/4;
   grid-row: 2/3; 
@@ -221,6 +223,8 @@
 #home-grid {
    display: grid;
    grid-template-columns: repeat(10,1fr);
+   display: flex;
+   justify-content: space-between;
 }
 
 @media screen and (max-width:900px) {
