@@ -237,6 +237,13 @@
    
 }
 
+img {
+   float: left;
+}
+
+h2 {
+   text-align: center;
+}
 @media screen and (max-width:900px) {
    #hero, .home-grid {
         display: block;
