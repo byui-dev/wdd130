@@ -250,8 +250,12 @@
 .moveDown {
      margin-top: 3em;  
 }
-
-
+#myForm {
+       position: absolute;
+       top: 35%;
+       left: 35%;
+       transform: translate(-35%, -35%);
+}
 
 
 
