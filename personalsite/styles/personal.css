@@ -1,1 +1,138 @@
 @import url('https://fonts.googleapis.com/css?family=Times+New+Roman|Montserrat');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 100px;
+    border: 0;
+    padding-left: -50px;
+}
+
+nav a {
+    text-align: center;
+    background-color: white;
+    padding: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #DFBBB1;
+}
+
+
+
+footer {
+    background-color: #008DD5;
+    padding: 25px 50px ;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-left: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
+    
+}
+
+
+#home-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    ;
+    
+}
+
+.home p img {
+    width: 300px;
+}
+
+.services img {
+    width: 300px;
+    
+    
+}
+
+.hire-us  img {
+    width: 300px;
+    
+}
+
+body {
+    background-color: #373F51;
+    font-family: Montserrat;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    display: grid;
+    font-family:'Times New Roman', Times, serif;
+    grid-template-columns: 150px auto;
+}
+
+.image1{
+    margin-top: 100px; 
+    width: 300px;
+    margin-left: 600px;
+    
+}
+.image2{
+    width: 280px; 
+    margin-left: 600px;
+
+}
+.image3 {
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 600px;
+}
+.image4 {
+    width: 300px;
+    margin-left: 600px;
+
+}
+.image5 {
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 600px;
+
+}
+.image6 {
+   width: 200px;
+   height: 200px;
+   margin-left: 600px;
+   
+}
