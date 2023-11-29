@@ -70,8 +70,6 @@ main section img {
 #home-grid {
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    ;
-    
 }
 
 .home p img {
@@ -115,6 +113,7 @@ header {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 /* Hide the images by default */
